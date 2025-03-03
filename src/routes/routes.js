@@ -1,4 +1,4 @@
-const connection = require('../database/connection')
+const connection = require('../Estruturado/database/connection')
 const express = require('express')
 const router = express.Router()
 const AWSController = require('../Estruturado/Controller/AWSController')
