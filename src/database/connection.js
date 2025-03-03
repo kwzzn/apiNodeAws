@@ -4,7 +4,7 @@ var knex = require('knex')({
         host : 'localhost',      
         user : 'root',     
         password : '',  
-        database : 'db_yago'
+        database : 'db_aws'
      }
 });
 module.exports = knex

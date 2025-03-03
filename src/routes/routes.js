@@ -2,7 +2,7 @@ const connection = require('../database/connection')
 const express = require('express')
 const router = express.Router()
 const AWSController = require('../Estruturado/Controller/AWSController')
-const ImageControllerNova = require('../Estruturado/Controller/ImageController')
+const ImageControllerNova = require('../Estruturado/Controller/ImagemController')
 const UserControllerNova = require('../Estruturado/Controller/UsuarioController')
 
 const multer = require('multer');

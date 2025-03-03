@@ -10,7 +10,7 @@ class ImagemController {
             res.status(400).json({ error: error.message });
         }
     }
-    //a
+    
     async listarImagem(req, res) {
         try {
             const resultado = await ImagemService.listarImagem();
