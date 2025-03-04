@@ -25,6 +25,7 @@ class AWSController {
 
             const resultado = await AWSService.uploadImagem(file);
             res.json(resultado);
+            
         } catch (error) {
             res.status(400).json({ error: error.message });
         }

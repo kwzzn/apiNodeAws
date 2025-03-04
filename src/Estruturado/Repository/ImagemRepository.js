@@ -1,5 +1,5 @@
 const { response } = require('express');
-const database = require('../Database/connection')
+const database = require('../database/connection')
 
 class ImagemRepository {
     async criarImagem(imagem) {
